@@ -13,6 +13,15 @@ function updateScreen() {
 	document.getElementById("time").innerHTML = (h + " : " + m + " : " + s);
 	document.getElementById("hex").innerHTML = hex;
 	document.body.style.background = hex;
+
+	// Check Fullscreen-Mode
+	if (Math.abs(screen.height - window.innerHeight) < 50 && Math.abs(screen.width - window.innerWidth) < 10) {
+		document.getElementById("github-badge").style.display = "none";
+		document.body.style.cursor = "none";
+	} else {
+		document.getElementById("github-badge").style.display = "block";
+		document.body.style.cursor = "default";
+	}
 }
 
 window.onload = setInterval(function () { updateScreen() }, 100);
