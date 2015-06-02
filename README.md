@@ -26,8 +26,5 @@ Color = '#' + (Time - ':')
 
 And if you are interested in the code, then have a look at [this](https://github.com/MarvinMenzerath/WhatColorIsIt/blob/gh-pages/assets/script.js) JavaScript.
 
-## Credits
-* Font "Open Sans" by Steve Matteson - Apache License 2.0
-
 ## License
 [MIT License](https://github.com/MarvinMenzerath/WhatColorIsIt/blob/gh-pages/LICENSE)
