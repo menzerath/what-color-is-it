@@ -4,9 +4,9 @@ function updateScreen() {
 	var m = d.getMinutes();
 	var s = d.getSeconds();
 
-	if (h < 10) { h = "0" + h };
-	if (m < 10) { m = "0" + m };
-	if (s < 10) { s = "0" + s };
+	if (h < 10) { h = "0" + h; }
+	if (m < 10) { m = "0" + m; }
+	if (s < 10) { s = "0" + s; }
 
 	var hex = "#" + h + m + s;
 
@@ -14,14 +14,8 @@ function updateScreen() {
 	document.getElementById("hex").innerHTML = hex;
 	document.body.style.background = hex;
 
-	// Check Fullscreen-Mode
-	if (Math.abs(screen.height - window.innerHeight) < 50 && Math.abs(screen.width - window.innerWidth) < 10) {
-		document.getElementById("github-badge").style.display = "none";
-		document.body.style.cursor = "none";
-	} else {
-		document.getElementById("github-badge").style.display = "block";
-		document.body.style.cursor = "default";
-	}
+	octo1.style.fill = hex;
+	octo2.style.fill = hex;
 }
 
-window.onload = setInterval(function () { updateScreen() }, 100);
+window.onload = setInterval(function () { updateScreen(); }, 100);
