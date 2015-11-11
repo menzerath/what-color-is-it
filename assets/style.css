@@ -33,6 +33,11 @@ h2 {
 	padding-top: 45%;
 }
 
+.github-corner .octo-arm, .octo-body {
+	transform-origin: 130px 106px;
+	transition: all 0.8s;
+}
+
 .github-corner:hover .octo-arm {
 	animation:octocat-wave 560ms ease-in-out;
 }
