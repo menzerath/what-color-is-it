@@ -18,4 +18,4 @@ function updateScreen() {
 	octo2.style.fill = hex;
 }
 
-window.onload = setInterval(function () { updateScreen(); }, 100);
+window.onload = setInterval(updateScreen, 100);
