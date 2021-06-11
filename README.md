@@ -1,6 +1,6 @@
-# What Color Is It
+# What Color Is It?
 Did you ever wanted to know what the current time would look like? Good news: now you can!  
-Just click [**here**](https://marvinmenzerath.github.io/WhatColorIsIt/) and watch how time changes colors!
+Just click [**here**](https://menzerath.github.io/what-color-is-it/) and watch how time changes colors!
 
 Explore new and unseen colors, check the time and have a unique screensaver!
 
@@ -24,4 +24,4 @@ Oh, and this one may be even easier to understand:
 Color = '#' + (Time - ':')
 ```
 
-And if you are interested in the code, then have a look at [this](https://github.com/MarvinMenzerath/WhatColorIsIt/blob/gh-pages/assets/script.js) JavaScript.
+And if you are interested in the code, then have a look at [this](https://github.com/menzerath/what-color-is-it/blob/gh-pages/assets/script.js) JavaScript.
